@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "matt",
+        "email": "mbm2228@columbia.edu",
+        "role": "data scientist",
+        "roleOther": "",
+        "github": "mbmackenzie",
+        "lang": "python",
+        "langOther": "",
+        "description": "Read a directory of csvs into a dataframe in one line",
+        "code": "import glob\nimport pandas as pd\n\ndf = pd.concat(map(pd.read_csv, glob.glob(\"dir/*.csv\")))"
+    },
+    {
+        "id": "2",
+        "name": "matt",
+        "email": "mbm2228@columbia.edu",
+        "role": "data scientist",
+        "roleOther": "",
+        "github": "mbmackenzie",
+        "lang": "python",
+        "langOther": "",
+        "description": "Read a directory of csvs into a dataframe in one line",
+        "code": "import glob\nimport pandas as pd\n\ndf = pd.concat(map(pd.read_csv, glob.glob(\"dir/*.csv\")))"
+    },
+    {
+        "id": "3",
+        "name": "matt",
+        "email": "mbm2228@columbia.edu",
+        "role": "data scientist",
+        "roleOther": "",
+        "github": "mbmackenzie",
+        "lang": "python",
+        "langOther": "",
+        "description": "Read a directory of csvs into a dataframe in one line",
+        "code": "import glob\nimport pandas as pd\n\ndf = pd.concat(map(pd.read_csv, glob.glob(\"dir/*.csv\")))"
+    }
+]
